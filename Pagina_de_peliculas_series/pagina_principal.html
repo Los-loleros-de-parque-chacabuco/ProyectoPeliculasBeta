@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./estilos.css">
+<title>La golosineria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+<style>
+    .navbar-nav{
+        margin-left: auto;
+    }
+</style>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg fondo letra3 sticky-top">
+        <a class="navbar-brand letra letra3 title" href="#"><img src="./images/Super.png" alt="">Fenflix</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> <img src="./images/menu-outline.svg" alt=""></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link letra" href="#">Inicio<span class="sr-only">(actual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link letra" href="#Quienes">Peliculas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link letra" href="#Proyectos">Series</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link letra " href="#Contacto">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link letra" href="#Ubicacion">Comprar</a>
+                </li>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--INICIAN LAS TARJETAS-->
+
+    <div id="cards_landscape_wrap-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="card-flyer" onclick="carritoCompra()">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="./images/chupetines.jpeg" alt="" />
+                            </div>
+                            <div class="text-container ">
+                                <h6>Chupetines</h6>
+                                <p>Ricos chupetines sabor frutilla de buena calidad.<br> <br><br> <br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer" onclick="algodon()" >
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="./images/algodón_de_azucar.jpeg" alt="" />
+                                </div>
+                                <div class="text-container ">
+                                    <h6>Algodon de azucar</h6>
+                                    <p>Algodon de azucar sabor frutilla, es rico y saludable guiño guiño, no mas te aviso que si lo comes con la mano te van a quedar todas pegajosas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer" onclick="paletas()" >
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="./images/chupetines_redondos.jpeg" alt="" />
+                                </div>
+
+                                <div class="text-container ">
+                                    <h6>Paletas</h6>
+                                    <p>Paletas hechas de caramelos de varios sabores como las del chavo, si esas mismas. <br> <br> <br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer" onclick="caramelos()" >
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="./images/caramelos.jpeg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Caramelos</h6>
+                                    <p>Caramelos con una gran variedad de sabores a gusto del consumidor. <br> <br><br> <br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer" onclick="rosquillas()" >
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="./images/donas.jpg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Rosquillas</h6>
+                                    <p>Son ideales para comer a la mañana, al medio día, a la tarde y a la noche. Estan
+                                        hechas de harina con sabor dulce recubiertas ㅤㅤㅤㅤpor un glaseado.
+                                        ㅤㅤㅤㅤㅤ<br>ㅤㅤㅤㅤㅤ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer" onclick="cereal()" >
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="./images/krusty.jpg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Cereal Krusty</h6>
+                                    <p>Es una marca de cereales para el desayuno con difentes sabores respaldada por
+                                        Krusty el Payaso.<i> Si te llegara a dar apendicitis por el consumo no nos
+                                            hacemos cargo. ㅤㅤ</i><b> Es veneno.</b> </b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer" onclick="waffles()" >
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="./images/panqueques.jpeg" alt=""/>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Waffles</h6>
+                                    <p>A comparacion de los otros productos esto es un manjar saludable, no te va a
+                                        matar de una pero capaz te tapa un poco las arterias. <br>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer" onclick="squisher()">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="./images/squishee.jpg" alt=""/>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Malteada Squisher</h6>
+                                    <p>Esta malteada es un viaje de ida <i>(No garantizamos la vuelta)</i> en el cual
+                                        vas a vivir sensaciones nunca antes vistas. <b>Es una bebida helada poco
+                                            saludable,no contiene ingredientes naturales.</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="https://www.youtube.com/watch?v=JWK2Dq4Ha5w" target="_blank">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="./images/1cf2abc963dc3b53c69bf45c2b1a960f-cortar-chipa-paraguay.png"
+                                        alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Chipa</h6>
+                                    <p>Chipa chipa rica chipa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--FINALIZAN LAS TARJETAS-->
+    <div>
+        <div class="container-fluid" id="Ubicacion"></div>
+        <h2 class="biografia2">Ubicacións</h2>
+        <div class="container-fluid"></div>
+      <iframe class="apu" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.7678577464426!2d-78.88176958549313!3d33.71495534287766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x890068e0bf16540b%3A0xc4a2c6c7a006e0e!2sKwik-E-Mart!5e0!3m2!1sen!2sar!4v1632703391658!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="container-fluid"></div>
+    </div>
+    <div id="Contacto" class="container-fluid"></div>
+
+    <!--INICIO DEL FORMULARIO DE CONTACTO-->
+
+    <div id="Contacto" class="form">
+        <h1>Contáctames</h1>
+        <h6>Esto queda entre tú y yo salchichita</h6>
+        <br>
+        <hr class="rounded2">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4"
+                        placeholder="Ej: yafnofquierofvivirf@correo.com">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Ej: Apus">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Direccion</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Ej: Tinogasta 2867">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Numero</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Ej: 1234567">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">Localidad</label>
+                    <input type="text" class="form-control" placeholder="Ej: CABA" id="Ej:CABA">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Ciudad</label>
+                    <input type="text" class="form-control" placeholder="Ej: Buenos Aires" id="Ciudad">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        ¿Desea recibir promociones?
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary boton_principal" onclick="contactar()">Contactars</button>
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
