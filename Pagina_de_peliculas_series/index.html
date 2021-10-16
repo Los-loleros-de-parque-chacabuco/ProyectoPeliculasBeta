@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,18 +15,20 @@
             <h1 class="decoration2">
                 Inicio de sesión
             </h1>
-            <div class="width">
-                <input type="Email" placeholder="Email" class="width decoration">
-            </div>
-            <div class="width">
-                <input type="password" placeholder="Contraseña" class="width decoration">
-            </div>
-            <div class="width">
-                <button onclick="iniciar_sesion()" class="button decoration">Iniciar sesion</button>
-            </div>
-            <div class="width padding">
-                <button onclick="location.href='Registro.html'" class="button decoration">Registrarse</button>
-            </div>
+            <form>
+                <div class="width">
+                    <input type="Email" placeholder="Email" class="width decoration" id="email">
+                </div>
+                <div class="width">
+                    <input type="password" placeholder="Contraseña" class="width decoration" id="contrasena">
+                </div>
+                <div class="width">
+                    <button type="button" class="button decoration" id="iniciarSesion">Iniciar sesion</button>
+                </div>
+                <div class="width padding">
+                    <button onclick="location.href='Registro.html'" class="button decoration" id="registrarse">Registrarse</button>
+                </div>
+            </form>
         </div>
     </div>
     <script src="./app.js"></script>

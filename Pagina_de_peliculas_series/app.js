@@ -1,5 +1,34 @@
 // alert ("Registrese o inicie sesión, por favor")
 
+// D O M
+
+// Datos del usuario ya registrado anteriormente
+const usurioRegistradoEmail = "usuario@gmail.com"
+const usurioRegistradoContrasena = "usuario123"
+
+// busco por id los inputs y botones
+let email = document.getElementById("email")
+let contrasena = document.getElementById("contrasena")
+let iniciarSesionBoton = document.getElementById("iniciarSesion")
+let registrarse = document.getElementById("registrarse")
+
+let confirmarInicio = () => {
+    // guardamos el valor que escribió en el input el usuario, dentro de una variable
+        var emailRes = email.value;
+        var constrasenaRes = contrasena.value
+        // si coincide el valor escrito por el usuario con el valor del usuario ya registrado entonces se redirecciona a la página principal, sin, se manda un alert
+    if (emailRes == usurioRegistradoEmail && constrasenaRes=== usurioRegistradoContrasena) {
+        window.location.href = "./pagina_principal.html";
+    }
+    else {
+        alert("noooo amigo, te equivocaste, vuelve a casa")
+    }
+}
+
+// la funcion confirmarInicio() solo courrirá cuando el boton de inicio de sesión se clickee
+iniciarSesionBoton.onclick = () => {
+    confirmarInicio()
+}
 // // V A R I A B L E S
 // var nombre
 // var contrasena
